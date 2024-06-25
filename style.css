@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(36, 39, 44);
+    margin: 0px;
+}
+
+center{
+    text-align: center;
+    .top-img{
+        width: 35%;
+        border-radius: 10px;
+        transition: box-shadow 1s;
+    }
+    .top-img:hover{
+        box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.55);
+    }
+}
+
+.shtext{
+    font-family: Roboto Mono, sans-serif;
+    color: white;
+}
+
+.weightnormal{
+    font-weight: normal;
+}
+
+.bottom.weightbold{
+    font-weight: bold;
+    color: rgb(79, 154, 178);
+    background-color: rgba(79, 153, 178, 0.29);
+    padding: 10px;
+    margin: 0px;
+    bottom: 100%;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+}
+
+
+.backgroundhead{
+    background-color: rgba(48, 51, 58, 0.683);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
